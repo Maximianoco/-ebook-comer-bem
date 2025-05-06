@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comer Bem, Viver Melhor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #ffcf5c;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      border-radius: 12px;
+    }
+    .cover {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+    .cover img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+    .description {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .download {
+      text-align: center;
+    }
+    .download a {
+      background-color: #2ecc71;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .download a:hover {
+      background-color: #27ae60;
+    }
+    .email-form {
+      margin-top: 2rem;
+      text-align: center;
+    }
+    .email-form input[type="email"] {
+      padding: 0.6rem;
+      width: 60%;
+      max-width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-right: 0.5rem;
+    }
+    .email-form button {
+      padding: 0.6rem 1rem;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .email-form button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Comer Bem, Viver Melhor</h1>
+    <p>Os Bons e Maus Hábitos Alimentares</p>
+  </header>
+
+  <div class="container">
+    <div class="cover">
+      <img src="capa-do-ebook.png" alt="Capa do eBook Comer Bem, Viver Melhor">
+    </div>
+
+    <div class="description">
+      Descubra como melhorar sua saúde com hábitos alimentares simples e eficazes. Um guia leve, prático e direto para transformar sua alimentação!
+    </div>
+
+    <div class="download">
+      <a href="#">📥 Baixar eBook em PDF</a>
+    </div>
+
+    <div class="email-form">
+      <p>Receba novidades sobre alimentação saudável:</p>
+      <form action="#" method="post">
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <button type="submit">Inscrever</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
